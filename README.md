@@ -25,7 +25,8 @@ La aplicación **OJS Mobile App** utiliza la librería [PlaceHolderView](https:/
    Al seleccionar una revista, se enlistan los volúmenes publicados de esa revista utilizando el Web Service [revistas.uteq.edu.ec/ws/issues.php?j_id=2](https://revistas.uteq.edu.ec/ws/issues.php?j_id=2).
 
    
-   ![Captura de pantalla 2025-03-24 223435](https://github.com/user-attachments/assets/79a75e91-ddbf-4eef-905a-4d4235deb749)
+  ![image](https://github.com/user-attachments/assets/cfe5cc3d-375d-446a-9322-fd1e0869ef37)
+
 
 
 5. **Ver artículos de una edición:**
