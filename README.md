@@ -16,17 +16,22 @@ La aplicación **OJS Mobile App** utiliza la librería [PlaceHolderView](https:/
 
 1. **Enlistar revistas científicas:**
    Utiliza el Web Service [revistas.uteq.edu.ec/ws/journals.php](https://revistas.uteq.edu.ec/ws/journals.php) para obtener la lista de revistas científicas publicadas por la UTEQ.
+
+
    ![image](https://github.com/user-attachments/assets/9978e2cd-ec9f-415e-bffb-6b05e2f97207)
 
    
 3. **Ver volúmenes de una revista:**
    Al seleccionar una revista, se enlistan los volúmenes publicados de esa revista utilizando el Web Service [revistas.uteq.edu.ec/ws/issues.php?j_id=2](https://revistas.uteq.edu.ec/ws/issues.php?j_id=2).
+
+   
    ![Captura de pantalla 2025-03-24 223435](https://github.com/user-attachments/assets/79a75e91-ddbf-4eef-905a-4d4235deb749)
 
 
 5. **Ver artículos de una edición:**
    Al seleccionar una edición de un volumen, se muestran los artículos correspondientes usando el Web Service [revistas.uteq.edu.ec/ws/pubs.php?i_id=78](https://revistas.uteq.edu.ec/ws/pubs.php?i_id=78).
-   ![image](https://github.com/user-attachments/assets/750a28eb-ccaa-4175-b37d-c4c564752ccc)
+   ![Captura de pantalla 2025-03-24 223748](https://github.com/user-attachments/assets/171c7558-7ca1-42bc-befc-9f565f5bb5bf)
+
 
 
 7. **Visualizar el artículo en HTML o Descaaargar**
