@@ -30,8 +30,10 @@ La aplicación **OJS Mobile App** utiliza la librería [PlaceHolderView](https:/
 
 5. **Ver artículos de una edición:**
    Al seleccionar una edición de un volumen, se muestran los artículos correspondientes usando el Web Service [revistas.uteq.edu.ec/ws/pubs.php?i_id=78](https://revistas.uteq.edu.ec/ws/pubs.php?i_id=78).
-   ![Captura de pantalla 2025-03-24 223748](https://github.com/user-attachments/assets/171c7558-7ca1-42bc-befc-9f565f5bb5bf)
+   
+   ![image](https://github.com/user-attachments/assets/42d021d8-adb0-4fb1-b5b3-d11a8c4e7454)
 
+   
 
 
 7. **Visualizar el artículo en HTML o Descaaargar**
