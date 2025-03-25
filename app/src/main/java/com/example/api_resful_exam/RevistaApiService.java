@@ -15,4 +15,7 @@ public interface RevistaApiService {
     @GET("ws/issues.php")
     Call<List<Volume>> obtenerVolumenes(@Query("j_id") String journalId);
 
+    @GET("ws/pubs.php")
+    Call<List<Articulo>> obtenerArticulos(@Query("i_id") String issueId);
+
 }

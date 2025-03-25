@@ -25,5 +25,6 @@
 
         <!-- Nueva actividad para los volúmenes -->
         <activity android:name=".VolumeActivity" android:exported="true"/>
+        <activity android:name=".ArticulosActivity" />
     </application>
 </manifest>
