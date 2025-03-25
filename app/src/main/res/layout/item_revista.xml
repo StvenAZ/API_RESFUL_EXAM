@@ -1,55 +1,53 @@
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_margin="8dp"
-    android:padding="16dp"
-    app:cardCornerRadius="8dp"
-    app:cardElevation="4dp">
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="#FFFFFF">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
 
-        <!-- Nombre de la revista (ahora arriba) -->
-        <TextView
-            android:id="@+id/nameTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="@android:color/black"
-            android:textStyle="bold"
-            android:paddingTop="8dp"
-            android:text="Nombre de la Revista"/>
-
-        <!-- Imagen de la portada (debajo del título) -->
         <ImageView
             android:id="@+id/logoImageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/darker_gray"/>
 
-        <!-- Descripción de la revista (debajo de la imagen) -->
-        <ScrollView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"/>
 
             <TextView
                 android:id="@+id/descriptionTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="@android:color/black"
-                android:text="Descripción de la revista"
-                android:maxLines="10"
-                android:scrollbars="vertical"
-                android:justificationMode="inter_word"
-                android:lineSpacingExtra="4dp"/>
-        </ScrollView>
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:maxLines="4"
+                android:ellipsize="end"/>
 
+        </LinearLayout>
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>

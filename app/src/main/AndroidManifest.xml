@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <!-- Nueva actividad para los volúmenes -->
+        <activity android:name=".VolumeActivity" android:exported="true"/>
+    </application>
 </manifest>
