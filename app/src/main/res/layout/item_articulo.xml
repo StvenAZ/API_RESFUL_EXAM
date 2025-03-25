@@ -54,5 +54,16 @@
             android:layout_gravity="end"
             android:layout_marginTop="8dp" />
 
+        <Button
+            android:id="@+id/htmlButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HTML"
+            android:textSize="12sp"
+            android:backgroundTint="#2ECC71"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

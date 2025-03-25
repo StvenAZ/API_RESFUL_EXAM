@@ -2,6 +2,7 @@ package com.example.api_resful_exam;
 
 import android.app.DownloadManager;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Environment;
 import android.view.LayoutInflater;
@@ -40,6 +41,14 @@ public class ArticuloAdapter extends RecyclerView.Adapter<ArticuloAdapter.Articu
 
         // Configurar el botón de descarga
         holder.downloadPdfButton.setOnClickListener(v -> descargarPdf(articulo.getPdfUrl(), articulo.getTitle()));
+
+        // Configurar el botón HTML
+        holder.htmlButton.setOnClickListener(v -> {
+            String doiUrl = "https://doi.org/" + articulo.getDoi(); // URL del DOI
+            // Abrir el DOI en un navegador
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(doiUrl));
+            context.startActivity(intent);
+        });
     }
 
     @Override
@@ -49,7 +58,7 @@ public class ArticuloAdapter extends RecyclerView.Adapter<ArticuloAdapter.Articu
 
     public static class ArticuloViewHolder extends RecyclerView.ViewHolder {
         TextView titleTextView, sectionTextView, doiTextView;
-        Button downloadPdfButton;
+        Button downloadPdfButton, htmlButton;
 
         public ArticuloViewHolder(View itemView) {
             super(itemView);
@@ -57,6 +66,7 @@ public class ArticuloAdapter extends RecyclerView.Adapter<ArticuloAdapter.Articu
             sectionTextView = itemView.findViewById(R.id.sectionTextView);
             doiTextView = itemView.findViewById(R.id.doiTextView);
             downloadPdfButton = itemView.findViewById(R.id.downloadPdfButton);
+            htmlButton = itemView.findViewById(R.id.htmlButton);  // Nuevo botón HTML
         }
     }
 
