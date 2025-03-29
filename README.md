@@ -4,7 +4,7 @@ Este proyecto fue realizado como parte del examen de la asignatura *Sistemas Mó
 
 ## Descripción
 
-La aplicación **OJS Mobile App** utiliza la librería [PlaceHolderView](https://github.com/janishar/PlaceHolderView) para interactuar con las revistas científicas de la UTEQ mediante un Web Service. La aplicación permite:
+La aplicación **OJS Mobile App** utiliza una interfaz para interactuar con las revistas científicas de la UTEQ mediante el consumo de una API Resful. La aplicación permite:
 
 1. **Listar las revistas científicas de la UTEQ.**
 2. **Seleccionar una revista** para mostrar los volúmenes publicados.
