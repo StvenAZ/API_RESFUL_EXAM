@@ -1,6 +1,6 @@
 # OJS Mobile App
 
-Este proyecto fue realizado como parte del examen de la asignatura *Programación Orientada a Objetos para Dispositivos Móviles* en la Universidad Técnica Estatal de Quevedo, dentro de la carrera de Ingeniería en Sistemas.
+Este proyecto fue realizado como parte del examen de la asignatura *Sistemas Móviles y ubicuos* en la Universidad Técnica Estatal de Quevedo, dentro de la carrera de Ingeniería en Telemática.
 
 ## Descripción
 
